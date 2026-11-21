@@ -1,0 +1,74 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+*.egg
+pip-wheel-metadata/
+pip-log.txt
+
+# --- Virtual environments ---
+# (.python-version is intentionally NOT ignored)
+.venv/
+venv/
+env/
+ENV/
+
+# --- Environment variables / secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Caches / tooling ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+.cache/
+
+# --- IDE / OS ---
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Logs ---
+*.log
+
+# --- Local model weights ---
+*.gguf
+*.ggml
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+models/
+model_weights/
+weights/
+.cache/huggingface/
+
+# --- Local data (survey data must not be committed) ---
+data/
+datasets/
+*.csv
+*.xlsx
+*.parquet
+*.sqlite
+*.db
